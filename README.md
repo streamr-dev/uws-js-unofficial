@@ -1,5 +1,19 @@
-### :construction: This is a fork!
+### :construction: This is a fork of a fork!
+### This fork compiles on Electron 13
 
+# Build instructions
+
+```
+git clone --recursive https://github.com/ptesavol/uws-js-unofficial.git
+cd uws-js-unofficial
+npm install
+./node_modules/.bin/electron-rebuild -v 13
+```
+
+The compiled binay can now be found in build/Release
+
+
+### Readme of the original fork
 This is a fork of the original [uWebSockets.js](https://github.com/uNetworking/uWebSockets.js) by @alexhultman. This fork adds unofficial support for Electron builds (Electron version 8, 9, 10, 11, and 12) by changing the build pipeline to use `node-gyp` instead of a custom C++ build script which allows us to use [electron-rebuild](https://github.com/electron/electron-rebuild). This repo is mainly for internal use to support Truffle Suite's [Ganache UI](https://github.com/trufflesuite/ganache) Electron application.
 
 **NOTE**: These binaries **do not** support SSL or Compression. They were not necessary for our uses, and we had issues getting those to compile with the Electron headers.

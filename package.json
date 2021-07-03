@@ -1,7 +1,7 @@
 {
-  "name": "@trufflesuite/uws-js-unofficial",
-  "version": "18.14.0-unofficial.3",
-  "description": "Simple, secure, & standards compliant web server for the most demanding of applications.",
+  "name": "@ptesavol/uws-js-unofficial",
+  "version": "18.14.0-unofficial.4",
+  "description": "uWS server for Electron 13",
   "main": "src/uws.js",
   "types": "docs/index.d.ts",
   "directories": {
@@ -11,18 +11,18 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node-gyp rebuild"
+    "build": "node-gyp rebuild && "
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/uws-js-unofficial.git"
+    "url": "git+https://github.com/ptesavol/uws-js-unofficial.git"
   },
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/trufflesuite/uws-js-unofficial/issues"
+    "url": "https://github.com/ptesavol/uws-js-unofficial/issues"
   },
-  "homepage": "https://github.com/trufflesuite/uws-js-unofficial#readme",
+  "homepage": "https://github.com/ptesavol/uws-js-unofficial#readme",
   "devDependencies": {
     "electron-rebuild": "^2.3.5",
     "node-gyp": "^7.1.2"
