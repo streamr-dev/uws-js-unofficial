@@ -1,5 +1,5 @@
 {
-  "name": "@ptesavol/uws-js-unofficial",
+  "name": "@streamr/uws-js-unofficial",
   "version": "18.14.0-unofficial.4",
   "description": "uWS server for Electron 13",
   "main": "src/uws.js",
