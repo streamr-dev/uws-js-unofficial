@@ -1,6 +1,6 @@
 {
   "name": "@streamr/uws-js-unofficial",
-  "version": "18.14.0-unofficial.4",
+  "version": "18.14.0-unofficial.5",
   "description": "uWS server for Electron 13",
   "main": "src/uws.js",
   "types": "docs/index.d.ts",
