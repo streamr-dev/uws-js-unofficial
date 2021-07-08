@@ -13,6 +13,14 @@ npm install
 The compiled binay can now be found in build/Release
 
 
+## Streamr: making a release
+
+```
+cp build/Release/*.node binaries/
+npm publish --access public
+```
+
+
 ### Readme of the original fork
 This is a fork of the original [uWebSockets.js](https://github.com/uNetworking/uWebSockets.js) by @alexhultman. This fork adds unofficial support for Electron builds (Electron version 8, 9, 10, 11, and 12) by changing the build pipeline to use `node-gyp` instead of a custom C++ build script which allows us to use [electron-rebuild](https://github.com/electron/electron-rebuild). This repo is mainly for internal use to support Truffle Suite's [Ganache UI](https://github.com/trufflesuite/ganache) Electron application.
 
